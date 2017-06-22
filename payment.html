@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title> Payment Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="payment.css">
+
+  
+</head>
+
+<body>
+  <h1>payment details</h1>
+
+<section class="container">
+    <div class="theCard">
+      <figure class="theCardFront">
+    <center>	<div class="instructionsCards">
+        	<div class="variousCards">
+            	<img class="visa cardImg" src="visa.jpg"/>
+                <img class="discover cardImg" src="discover.jpg"/>
+                <img class="mastercard cardImg" src="master.jpg"/>
+                <img class="amex cardImg" src="amex.jpg"/>
+                <img class="jcb cardImg" src="jcb.jpg"/>
+            </div>
+        </div></center>
+      	<div class="instructions">
+        	<a href="#" class="signIn">Sign in</a>
+        </div>
+        <br class="clear" />
+        <div class="cardNumber">Card Number:<br/>
+            <input class="firstfour" placeholder="1111" maxlength="4"/>
+            <input placeholder="2222" maxlength="4" />
+            <input placeholder="3333" maxlength="4" />
+            <input placeholder="4444" maxlength="4" />
+        </div>
+        <div class="cardExpiration">Expiration Date:<br/>
+        	<input class="month" placeholder="Mo" maxlength="2"/> / <input class="year" placeholder="Year" maxlength="4"/>
+        </div>
+        <div class="cardSecurity">Security Code:<br/>
+        	<input class="csc" placeholder="CSC" maxlength="4"/>
+            <small><span class="tooltip">What's this?</span><span class="help">Lorem ipsum dolor sit ame</span></small>
+        </div>
+        <br class="clear">
+        <input type="submit" value="Pay Now" class="pay"/>
+      </figure>
+      <figure class="theCardBack">
+        <div class="instructions">
+          <a href="#" class="signIn">Cancel and Pay Now</a><br /><small>-or-</small>
+          <div class="login">
+            <input placeholder="Username or email" class="username"/>
+            <input placeholder="Password" class="password"/><br />
+            <input type="submit" class="signIn" value="Login" />
+          </div>
+        </div>
+      </figure>
+    </div>
+</section>
+  
+
+</body>
+</html>

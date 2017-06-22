@@ -1,0 +1,124 @@
+html, body, div, h3, p, ul, li, img {
+    margin:0;
+    padding:0;
+}
+
+body{
+   background-color: whitesmoke;
+    font-family:"Trebuchet MS";
+}
+.main-body {
+	float: left;
+	width: 100%;
+	background: url("E:\tn\main.jpg.png") no-repeat top center;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+.image {
+   max-width:100%;
+}
+
+
+.container {
+
+    width:800px;
+    margin:20px auto 0;
+}
+header {
+    background:#42517f;
+    border-bottom:1px solid black;
+    font-size: 70px;
+}
+header h3 {
+    color:white;
+    text-align:center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    word-sparing:1px;
+    text-shadow: 1px 1px 2px #000;
+
+}
+
+#content {
+    background-image: url("E:\tn\13.jpg");
+    background:linear-gradient (to top, #848c9c 0%,#687080 50%,#a7b1c5 100%);
+    background:-webkit-linear-gradient (bottom, #848c9c 0%,#687080 50%,#a7b1c5 100%);
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden;
+}
+
+.gallery {
+    width: 728px;
+    margin:auto;
+}
+
+.gallery ul {
+    list-style: none;
+}
+
+.gallery li {
+    float:left;
+    margin:40px;
+}
+
+.gallery img {
+    display:block;
+    padding:5px;
+    background: black;
+    border:1px solid #99adeb;
+    box-shadow:1px 1px 2px #000;
+}
+
+.gallery img:hover {
+    border:1px solid #fff;
+}
+
+footer {
+    background:#222222;
+}
+
+footer p{
+    color:#fff;
+    text-align:center;
+    font-size:11px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.button{
+  margin-top:15px;
+  background:#FF5733;
+  height:20px;
+  width:50px
+  display:block;
+  color:white;
+  text-align:center;
+  padding:2px;
+  text-decoration:none;
+  font-size:1em;
+  box-sizing:border-box;
+  border-radius:3px;
+  
+}
+.button1{
+  margin-top:15px;
+  background:#bdb76b;
+  height:20px;
+  width:50px
+  display:block;
+  color:#FFF;
+  text-align:center;
+  text-decoration:none;
+  font-size:1.5em;
+  box-sizing:border-box;
+  border-radius:3px;
+}
+p{
+	word-spacing:20px;
+}
+div.desc {
+    padding: 5px;
+    text-align: center;
+    color:green;
+}

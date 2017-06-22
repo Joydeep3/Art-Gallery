@@ -1,0 +1,136 @@
+<html>
+  <title>ART GALLERY</title>
+    <head>
+
+        <title>MAIN PAGE</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="mySidenav.css"/>
+	<link rel="stylesheet" href="slide.css"/>
+	<link rel="stylesheet" href="s.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+  <h1 align="center"><font face=Magneto size=30 color=#FF5733><b>ART GALLERY</b></font></h1>
+  
+    <p align="center">
+  <a class="button" href="paintings/abstract.html"><b>ABSTRACT-PAINTING</b></a>
+  <a class="button" href="paintings/POP.html"><b>POP-ART</b></a>
+  <a class="button" href="paintings/photorealism.html"><b>PHOTOREALISM</b></a>
+  <a class="button" href="paintings/3d.html"><b>3D-PAINTING</b></a>
+    <a class="button" href="paintings/conceptual.html"><b>CONCEPTUAL-ART</b></a>
+  <hr>
+</p>
+   <div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Info</span>
+</div>
+<div id="mySidenav" class="Sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about.html">About</a>
+  <a href="#">Services</a>
+  <a href="#">Queries</a>
+  <a href="#">Contact</a>
+</div>
+  
+
+  <body background="13.jpg" no repeat>
+    <div class="slideshow-container">
+	<div class="mySlides fade">
+       <img src="main.jpg.png" class="image" width="99%" border=5 height="90%">
+	</div>
+<div class="mySlides fade">
+       <img src="1.jpg" class="image" width="99%" border=5 height="90%">
+	</div>
+<div class="mySlides fade">
+       <img src="2.jpg" class="image" width="99%" border=5 height="90%">
+	</div>
+<div class="mySlides fade">
+       <img src="3.jpg" class="image" width="99%" border=5 height="90%">
+	</div>
+<div class="mySlides fade">
+       <img src="4.jpg" class="image" width="99%" border=5 height="90%">
+	</div>
+<div class="mySlides fade">
+       <img src="5.jpg" class="image" width="99%" border=5 height="90%">
+	</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>  
+</div>
+ <div class="container">
+            <header><h3>Famous Artists of all time:</h3></header>
+            <section id="content"> 
+                
+        
+        
+         <div class="gallery">
+                  
+                     <ul>
+                        <li><a div class="button1" href="paintings/vinci.html"><image src="davince.jpg" width="150" height="200" ><div class="desc">DA VINCI</a></div></li>
+                        <li><a div class="button1" href="paintings/husain.html"><image src="mfhusain.jpg" width="150" height="200"><div class="desc">MF HUSAIN</a></div></li>
+                        <li><a div class="button1" href="paintings/picasso.html"><image src="picasso.jpg" width="150" height="200"><div class="desc">PICASSO</a></div></li>
+                        
+                    </ul>
+                </div>
+                  </section>
+            <footer><p>All Rights Reserved</p></footer>
+        </div>
+           
+       
+        <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+
+</script>
+<br>
+
+     </body>
+     <br>
+     
+          <p  align="center"><font color=white><b><i>Painting is itself a art of filling the worlds beauty into the blank pages and bringing out the expressions of the painter through it.<br>
+<br> The world is getting forwarded in terms of art and everyone has thier own potential to define and understand it.</font></i></b><br><br>
+  
+       <a target="_blank" href="http://www.facebook.com" class="fa fa-facebook"></a>
+	<a target="_blank" href="http://www.twitter.com" class="fa fa-twitter"></a>
+	<a target="_blank" href="http://www.gmail.com" class="fa fa-google"></a>
+	<a target="_blank" href="http://www.youtube.com" class="fa fa-youtube"></a>
+	<a target="_blank" href="http://www.instagram.com" class="fa fa-instagram"></a>
+        </p>
+  
+        <br>
+        <br>
+    
+         
+         
+    </head>
+</html>
